@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <Banner />
+    <Gallery />
   </React.StrictMode>,
   document.getElementById('root')
 );

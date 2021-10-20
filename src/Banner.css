@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300;500&display=swap');
 
+
 .Banner {
     width: 100%;
     height: 100vh;
-    background: url("https://idsb.tmgrup.com.tr/ly/uploads/images/2021/07/11/128071.jpg");
+    background: #2196f3;
+    background: url("./banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
 
 .Banner h1 {
@@ -30,8 +33,8 @@
 }
 
 .Title {
-    float: right;
-    display: inline;
+    /*float: right;*/
+    /*display: inline;*/
     width: 517px;
     margin-top: 20px;
     background-image: linear-gradient(to right, rgb(33 150 243 / 9%), #2196f3);
@@ -43,6 +46,12 @@
 .Title:hover {
     width: 600px;
 }
+
+
+.fade-in, .fade-in2, .fade-in3 {
+    animation-delay: 10s;
+}
+
 
 
 .fade-in {
@@ -101,6 +110,52 @@
 }
 
 
+.afa-logo {
+    text-align: center;
+    /*float: right;*/
+}
+
+.afa-logo img {
+    width: 300px;
+    height: 300px;
+}
+
+.Title-and-logo {
+    float: right;
+    right: 0;
+    position: absolute;
+}
+
+.main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 80%;
+    text-align: center;
+    font-size: 4rem;
+    display: inline;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background: #2196f3b5;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 2px 2px 5px #154a74;
+}
+
+.main-nav li {
+  display: inline;
+  margin-right: 5%;
+}
+
+.main-nav > :first-child {
+  margin-left: 5%;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
+}
+
 
 @media (max-width:1200px) {
 
@@ -117,6 +172,15 @@
 
     .Title:hover {
         width: inherit;
+    }
+
+    .Title-and-logo {
+        width: 100%;
+    }
+
+    .main-nav {
+        font-size: 3rem;
+        top:  4%;
     }
 
 }
@@ -136,11 +200,12 @@
         width: inherit;
     }
 
-}
+    .Title-and-logo {
+        width: 100%;
+    }
 
+    .main-nav {
+        font-size: 2rem;
+    }    
 
-
-.afa-logo img {
-    width: 100px;
-    height: 100px;
 }
