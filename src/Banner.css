@@ -110,6 +110,27 @@
 }
 
 
+.fade-in4 {
+    animation: fadeIn4 3s;
+    opacity: 1;
+}
+
+@keyframes fadeIn4 {
+    0% {
+    opacity: 0;
+    }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
 .afa-logo {
     text-align: center;
     /*float: right;*/

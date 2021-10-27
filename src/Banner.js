@@ -15,7 +15,7 @@ function Banner(){
 					</h1>
 				</div>
 			</div>
-			<ul className="main-nav">
+			<ul className="main-nav fade-in4">
 				<li><a href="#">News</a></li>
 				<li><a href="#">Gallery</a></li>
 				<li><a href="#">Stats</a></li>
