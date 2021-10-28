@@ -5,10 +5,12 @@ import App from './App';
 import Test from './Test'
 import Gallery from './Gallery'
 import Banner from './Banner'
+import NextMatches from './NextMatches'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <NextMatches />
     <Banner />
     <Gallery />
   </React.StrictMode>,

@@ -1,0 +1,109 @@
+.NextMatches {
+	height: 100vh;
+	background: #dddddd;
+}
+
+
+.player {
+    background: url("./maradona.png");
+	display: inline-block;
+	width: 35%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.matches {
+	display: inline-block;
+	width: 65%;
+	margin-top: 7%;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+
+.match {
+	width: 22%;
+	text-align: center;
+	background-color: #8dacd1b8;
+	color: white;
+	display: inline-block;
+	padding: 1.5em;
+	margin-left: 50px;
+}
+
+.match:hover {
+	background-color: #8dacd1;
+}
+
+
+.date {
+	background-color: white;
+	width: 40%;
+	margin: 0 auto;
+	position: relative;
+	top: -4em;
+	padding: 0.5em;
+}
+.day {
+	font-size: 45px;
+	color: skyblue;
+}
+.month {
+	font-weight: 600;
+    font-size: 21px;
+	color: skyblue;
+}			
+.status {
+	font-size: 15px;
+    font-weight: 700;
+    top: -3.5em;
+    position: relative;    
+}
+.description {
+	font-weight: 600;
+	font-size: 22px;
+    top: -1em;
+    position: relative;  
+}
+.competition {
+	font-size: 19px;
+	position: relative;
+	top: -1em;
+}
+
+.home-logo img, .away-logo img {
+	width: 48px;
+	height: 48px;
+}
+
+.home-logo {
+
+}
+.home-name {
+font-weight: bold;
+    font-size: 24px;
+}
+.separator {
+font-weight: bold;
+    font-size: 24px;
+}
+
+.away-name {
+font-weight: bold;
+    font-size: 24px;
+}
+.away-logo {
+
+}
+
+.match-big {
+	transform: scale(1.2);
+}
+
+
+.home-logo, .home-name, .separator, .away-name, .away-logo {
+    margin-bottom: 5px;
+}
