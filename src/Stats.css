@@ -1,0 +1,90 @@
+.Stats {
+	height: 100%;
+	width: 100%;
+	background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+	padding-top: 4vh;
+}
+
+.container {
+	    margin-top: 4vh;
+	    height: 6vh;
+	    width: 100%;
+}
+
+.container:first-child {
+	    margin-top: 0;
+}
+
+.img-container {
+	background: green;
+}
+
+.bar {
+    font-size: 4.6vh;
+    text-align: right;	
+    background: #2196f3;
+    width: 67%;
+    height: 100%;
+	display: inline-block;
+	float: right;
+	margin-right: 5%;
+	padding-right: 5%;
+    animation: barFill 2s;
+    color: white;
+	overflow: hidden;
+	text-overflow: clip; 
+	word-break: break-all;
+}
+
+
+
+@keyframes barFill {
+  0% {
+    width: 25%;
+  }
+  100% {
+    width: 67%;
+  }
+}
+
+
+
+.circle {
+	width: 7vh;
+	height: 7vh;
+	display: inline-block;
+	border: 3px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+	float: right;
+	color: white;
+	background: #2196f3;
+	text-align: center;
+	font-size: 6vh;
+	margin-right: 5%;
+	position: relative;
+    top: -5px;
+}
+
+
+.trophies-container {
+	margin: 20px auto 0;
+    height: 20px;
+    width: 90%;
+	height: 100%;
+	text-align: center;
+}
+
+.trophies-container img {
+	height: 20vh;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+
+
+@media (max-width:1000px) {
+	.trophies-container img {
+		height: 10vh;
+	}
+}

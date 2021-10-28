@@ -1,6 +1,6 @@
 .NextMatches {
 	height: 100vh;
-	background: #dddddd;
+	background: url("https://media.istockphoto.com/photos/fluffy-clouds-hd-seamless-tiles-pattern-01-picture-id938695332?k=20&m=938695332&s=612x612&w=0&h=vvLS37XCtDZmvgG_nCVthhrKV6uWxhoBjoPyERsWgrE=");
 }
 
 
@@ -28,7 +28,8 @@
 .match {
 	width: 22%;
 	text-align: center;
-	background-color: #8dacd1b8;
+	background-color: #386cbba6;
+	/*background-color: #8dacd1b8;*/
 	color: white;
 	display: inline-block;
 	padding: 1.5em;
@@ -36,7 +37,8 @@
 }
 
 .match:hover {
-	background-color: #8dacd1;
+	/*background-color: #8dacd1;*/
+	background-color: #386cbb;
 }
 
 
@@ -117,7 +119,6 @@ font-weight: bold;
 
 	.NextMatches {
 		height: 150vh;
-		background: #dddddd;
 	}
 
 

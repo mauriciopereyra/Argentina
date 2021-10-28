@@ -175,7 +175,14 @@
 .main-nav a {
   text-decoration: none;
   color: white;
+  transition: all 0.5s;
 }
+
+.main-nav a:hover {
+    color: #88c6fb;
+}
+
+
 
 
 @media (max-width:1200px) {

@@ -6,12 +6,14 @@ import Test from './Test'
 import Gallery from './Gallery'
 import Banner from './Banner'
 import NextMatches from './NextMatches'
+import Stats from './Stats'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <NextMatches />
     <Banner />
+    <NextMatches />
+    <Stats />
     <Gallery />
   </React.StrictMode>,
   document.getElementById('root')
