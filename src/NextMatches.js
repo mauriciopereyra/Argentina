@@ -5,6 +5,9 @@ import Match from './match'
 function NextMatches(){
 	return (
 		<div className="NextMatches">
+			<div className="section-title">
+				<h1>Next matches</h1>
+			</div>
 			<div className="player">
 				
 			</div>

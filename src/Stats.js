@@ -6,6 +6,9 @@ import Trophy from './Trophy'
 function Stats(){
 	return (
 		<div className="Stats">
+			<div className="section-title">
+				<h1>Stats</h1>
+			</div>
 			<div className="Stats-container">
 				<Stat number="2" competition="World Cup" />
 				<Stat number="15" competition="Copa America" />

@@ -3,6 +3,9 @@ import GalleryPhoto from './GalleryPhoto'
 function Gallery() {
 	return (
 	<div className="Gallery">
+		<div className="section-title">
+			<h1>Gallery</h1>
+		</div>
 	  <div className="wrapper" style={{ width:'99%'}}>
 	    <GalleryPhoto classes='w2 h2' x='0' y='0' alt="Argentina-Bolivia" src="https://messi.com/wp-content/uploads/2021/10/WhatsApp-Image-2021-10-11-at-11.03.49.jpeg" />
 	    <GalleryPhoto classes='w2 h1' x='2' y='0' alt="Argentina-Bolivia" src="https://imagenes.elpais.com/resizer/OcNnh12aLsaw_s4g_7vacj_-IZ4=/414x233/cloudfront-eu-central-1.images.arcpublishing.com/prisa/SSUEZTI2KSVSZNVOH7TKFIUEKU.jpg" />
