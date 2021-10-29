@@ -10,7 +10,7 @@ function scrollListener(){
 
 	setTimeout(() => {  
 		for (let i = 0; i < bar_list.length; i++) {
-			
+
 			document.addEventListener('scroll', function (e) {
 				var top  = window.pageYOffset + window.innerHeight,
 					isVisible = top > bar_list[i].offsetTop;
@@ -21,7 +21,7 @@ function scrollListener(){
 			  });
 
 		  }
-	}, 2000);
+	}, 500);
 
 
 }
