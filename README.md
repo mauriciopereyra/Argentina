@@ -1,1 +1,1 @@
-Fanpage website created for practice using React JS
+Fanpage website built to practice using React JS
