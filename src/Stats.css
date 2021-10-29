@@ -34,13 +34,15 @@
 	float: right;
 	margin-right: 5%;
 	padding-right: 5%;
-    animation: barFill 2s;
     color: white;
 	overflow: hidden;
 	text-overflow: clip; 
 	word-break: break-all;
 }
 
+.fill {
+	animation: barFill 2s;
+}
 
 
 @keyframes barFill {

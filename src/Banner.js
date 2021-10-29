@@ -18,7 +18,7 @@ function changeBackground(){
 		  if (i == images.length) {
 			i =  0;
 		  }
-	}, 5000);
+	}, 6000);
 }
 
 function Banner(){

@@ -3,9 +3,33 @@ import './Stats.css'
 import Stat from './Stat'
 import Trophy from './Trophy'
 
+function scrollListener(){
+
+	var bar_list = document.getElementsByClassName('bar')
+
+
+	setTimeout(() => {  
+		for (let i = 0; i < bar_list.length; i++) {
+			
+			document.addEventListener('scroll', function (e) {
+				var top  = window.pageYOffset + window.innerHeight,
+					isVisible = top > bar_list[i].offsetTop;
+			  
+				 if (isVisible) {
+				   bar_list[i].classList.add('fill');
+				 }
+			  });
+
+		  }
+	}, 2000);
+
+
+}
+
+
 function Stats(){
 	return (
-		<div className="Stats" id="stats">
+		<div className="Stats" id="stats" onLoad={scrollListener()}>
 			<div className="section-title">
 				<h1>Stats</h1>
 			</div>

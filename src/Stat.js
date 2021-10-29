@@ -1,3 +1,6 @@
+
+
+
 function Stat(props){
 	return (
 			<div className="container">
@@ -6,7 +9,7 @@ function Stat(props){
 				<div className="circle">
 					{props.number}
 				</div>
-				<div className="bar">
+				<div className="bar" >
 					{props.competition}
 				</div>
 			</div>
