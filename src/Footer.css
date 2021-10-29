@@ -1,9 +1,26 @@
 .Footer {
 	background: darkblue;
 	color: white;
+	display: flex;	
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .socialMedia {
-	text-align: center;
-	padding: 15vh 0 15vh;
+    gap: 40px;
+    display: flex;
+    font-size: 40px;
+/*	text-align: center;
+	padding: 15vh 0 15vh;*/
 }
+
+.socialMedia a {
+	color: white;
+	transition: all 0.5s;
+}
+
+.socialMedia a:hover {
+	  color: #88c6fb;
+  }
