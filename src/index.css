@@ -24,6 +24,8 @@ code {
   padding: 10px;
   font-size: 45px;
   text-align: center;
+  color: white;
+  text-shadow: 3px 3px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 
@@ -32,4 +34,7 @@ code {
     justify-content: center;
   }
 
+}
+html {
+  scroll-behavior: smooth;
 }

@@ -5,7 +5,7 @@ import Trophy from './Trophy'
 
 function Stats(){
 	return (
-		<div className="Stats">
+		<div className="Stats" id="stats">
 			<div className="section-title">
 				<h1>Stats</h1>
 			</div>

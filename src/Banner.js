@@ -16,9 +16,9 @@ function Banner(){
 				</div>
 			</div>
 			<ul className="main-nav fade-in4">
-				<li><a href="#">News</a></li>
-				<li><a href="#">Gallery</a></li>
-				<li><a href="#">Stats</a></li>
+				<li><a href="#next">News</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#stats">Stats</a></li>
 			</ul>
 		</div>
 		)
