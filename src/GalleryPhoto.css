@@ -3,7 +3,7 @@
 	/* height: 1035px; */
 	height: 1125px;
 	/* background: #2196f3; */
-	background: "banderaargentina.jpg";
+	background-image: "banderaargentina.jpg";
     background-repeat: no-repeat;
     background-size: cover;
 }

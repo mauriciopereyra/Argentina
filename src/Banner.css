@@ -4,8 +4,9 @@
 .Banner {
     width: 100%;
     height: 100vh;
-    background: #2196f3;
-    background: url("./banner.jpg");
+    /* background: #2196f3; */
+    transition: background-image 1s linear;
+    background-image: url("./banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
