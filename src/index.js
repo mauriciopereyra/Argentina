@@ -10,6 +10,14 @@ import Stats from './Stats'
 import Footer from './Footer'
 import reportWebVitals from './reportWebVitals';
 
+// Check if accessing via localhost or via domain
+var baseUrl = '/argentina/'
+if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+    {
+      baseUrl = './'
+    }
+
+
 ReactDOM.render(
   <React.StrictMode>
     <Banner />
