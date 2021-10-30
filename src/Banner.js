@@ -13,6 +13,8 @@ var images = [
 
 function changeBackground(){
 	var i = 0;
+
+	console.log('loaded')
 	
 	setInterval(function() {
 		  document.getElementsByClassName('Banner')[0].style.backgroundImage = "url(" + images[i] + ")";

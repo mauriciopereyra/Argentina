@@ -49,14 +49,16 @@
 }
 
 
-.fade-in, .fade-in2, .fade-in3 {
-    animation-delay: 10s;
+
+
+.fade-in, .fade-in2, .fade-in3, .fade-in4 {
+  animation-delay: 10s;
 }
 
 
-
 .fade-in {
-    animation: fadeIn 2s;
+    /* animation: fadeIn 2s; */
+    animation: fadeIn 3s;
     opacity: 1;
 }
 
@@ -73,7 +75,8 @@
 }
 
 .fade-in2 {
-    animation: fadeIn2 4s;
+    /* animation: fadeIn2 4s; */
+    animation: fadeIn2 5s;
     opacity: 1;
 }
 
@@ -90,10 +93,9 @@
   }
 }
 
-
-
 .fade-in3 {
-    animation: fadeIn3 1s;
+    /* animation: fadeIn3 1s; */
+    animation: fadeIn3 2s;
     opacity: 1;
 }
 
@@ -110,9 +112,9 @@
   }
 }
 
-
 .fade-in4 {
-    animation: fadeIn4 3s;
+    /* animation: fadeIn4 3s; */
+    animation: fadeIn4 4s;
     opacity: 1;
 }
 
@@ -128,7 +130,6 @@
     opacity: 1;
   }
 }
-
 
 
 
