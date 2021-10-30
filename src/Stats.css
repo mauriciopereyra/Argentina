@@ -28,7 +28,7 @@
     font-size: 4.6vh;
     text-align: right;	
     background: #2196f3;
-    width: 67%;
+    width: 1%;
     height: 100%;
 	display: inline-block;
 	float: right;
@@ -42,6 +42,7 @@
 
 .fill {
 	animation: barFill 2s;
+    width: 67%;
 }
 
 
