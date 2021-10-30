@@ -6,7 +6,7 @@
     height: 100vh;
     /* background: #2196f3; */
     transition: background-image 1s linear;
-    background-image: url("./banner.jpg");
+    background-image: url("./banner-min-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

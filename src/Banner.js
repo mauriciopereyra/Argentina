@@ -1,6 +1,6 @@
 import './Banner.css'
 import logo from './logo-afa-1c.png'
-import banner from './banner.jpg'
+import banner from './banner-min-1.jpg'
 import banner2 from './banner2.jpg'
 import banner3 from './banner3.jpg'
 
@@ -21,6 +21,7 @@ function changeBackground(){
 			i =  0;
 		  }
 	}, 6000);
+
 }
 
 function Banner(){
